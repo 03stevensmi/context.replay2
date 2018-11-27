@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="context.replay"
-version="0.0.1"
-name="Replay Context Menu"
-provider-name="primaeval">
+<addon id="context.replay2"
+version="0.0.2"
+name="Replay Context Menu 2"
+provider-name="03stevensmi">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -11,14 +11,14 @@ provider-name="primaeval">
 </requires>
 <extension point="kodi.context.item">
 <menu id="kodi.core.main">
-  <item library="context.py">
-    <label>[COLOR red]Record[/COLOR]</label>
+  <item library="context2.py">
+    <label>[COLOR green]Stop Recording[/COLOR]</label>
     <visible>True</visible>
   </item>
 </menu>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Replay Context Menu</summary>
+  <summary lang="en">Replay Context Menu 2</summary>
   <description lang="en"></description>
   <disclaimer lang="en"></disclaimer>
 </extension>
